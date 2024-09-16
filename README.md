@@ -282,7 +282,7 @@ CREATE TABLE invoices (
     FOREIGN KEY (CustomerID) REFERENCES customers(CustomerID),
     FOREIGN KEY (SalespersonID) REFERENCES salespersons(SalespersonID)
 );
-	```
+```
 
 ## seeding.sql
 
