@@ -217,7 +217,9 @@ Complete the challenges in this readme. Follow the instructions and implement:
 - [OPTIONAL] `update.sql` and `delete.sql`
 
 
-## Delivery
+## ER-Diagram
+
+![Diagrama E-R](https://github.com/LuisHRF/lab-sql-mysql-db-creation/blob/main/cars_er_diagram.png)
 
 ## create.sql
 
@@ -280,7 +282,7 @@ CREATE TABLE invoices (
     FOREIGN KEY (CustomerID) REFERENCES customers(CustomerID),
     FOREIGN KEY (SalespersonID) REFERENCES salespersons(SalespersonID)
 );
-	```
+```
 
 ## seeding.sql
 
